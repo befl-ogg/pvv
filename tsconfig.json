@@ -1,0 +1,29 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@icons/*": [
+        "src/assets/icons/*"
+      ],
+      "@catalogs/*": [
+        "src/assets/catalogs/*"
+      ],
+      "@commons/*":[
+        "src/assets/commons/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ]
+    },
+}

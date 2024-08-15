@@ -1,0 +1,12 @@
+---
+interface Props {
+  url: string;
+  ancho: string;
+}
+
+const { url, ancho } = Astro.props;
+---
+
+<img src={url} alt="Logo" class="logo" style={`height: auto; width: ${ancho}`} />
+
+<style></style>
